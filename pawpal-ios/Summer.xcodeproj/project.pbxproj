@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+		021FAF32D04D72B75184ACEF /* WalkDetailSheet.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "WalkDetailSheet.swift";
+			path = "WalkDetailSheet.swift";
+			sourceTree = "<group>";
+		};
+		02C01288400459A9BB1A3DB1 /* Build configuration list for PBXProject "Summer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			64198C09F9F5FAE249765B5B /* Debug */,
+			61CDB23D2931E17E8D3CAB71 /* Release */,
+		);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		0F372F5B840ED2C929F1C750 /* Components.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = CDC0E6A4C93872052D91D809 /* Components.swift */;
+		};
+		1129B6A53940C88B539F2B2B /* Summer */ = {
+			isa = PBXGroup;
+			children = (
+			2E1AB9F83F5703B70F59D3E0 /* Models.swift */,
+			71FDD9F97525F1DEAFBA7B40 /* QuestModels.swift */,
+			40AF32D9B5B19B83EF19E09C /* SeedData.swift */,
+			38C072E2D16DBA04FC65461C /* LocalRepository.swift */,
+			B3C1DFCE8A09E70E783BF768 /* Repository.swift */,
+			37C3546B53CD326FF258E1E9 /* SummerApp.swift */,
+			38FD7EB2FC23A4D1D607417E /* AppState.swift */,
+			76447CCF7AB6F15C114BE564 /* QuestEngine.swift */,
+			CDC0E6A4C93872052D91D809 /* Components.swift */,
+			D5C32F990842EC34F115F995 /* ContentView.swift */,
+			607BBD90A24BDB15CF1A7B5A /* DiscoverView.swift */,
+			28407217406C1C2228B09BD0 /* MapView.swift */,
+			6E1DF729C30F730F51449924 /* MessagesView.swift */,
+			7865340A203755FC7809C0B0 /* PostView.swift */,
+			854BA7B5BF3DE6BC71505372 /* ProfileView.swift */,
+			602F91D17D5BCA768EC4C990 /* QuestCenterView.swift */,
+			021FAF32D04D72B75184ACEF /* WalkDetailSheet.swift */,
+			401E5B985621ECD6CC67DF6E /* Resources */,
+		);
+			path = "Summer";
+			sourceTree = "<group>";
+		};
+		1B9C25F61C7C929FCC239967 /* SeedData.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 40AF32D9B5B19B83EF19E09C /* SeedData.swift */;
+		};
+		277E80F062FCB138CB4429DC /* AppState.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 38FD7EB2FC23A4D1D607417E /* AppState.swift */;
+		};
+		28407217406C1C2228B09BD0 /* MapView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "MapView.swift";
+			path = "MapView.swift";
+			sourceTree = "<group>";
+		};
+		285BB1C1430063331E9F5DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			9F52E05DE9B14FA8D5CB7CFA /* Assets.xcassets in Resources */,
+		);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1AB9F83F5703B70F59D3E0 /* Models.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "Models.swift";
+			path = "Models.swift";
+			sourceTree = "<group>";
+		};
+		2EF651918AC507BF59F2C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_Localization = "en";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.summer.walkdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				INFOPLIST_KEY_CFBundleDisplayName = "Summer";
+			};
+		};
+		320C0F2FC8BCE35B484D8934 /* PostView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 7865340A203755FC7809C0B0 /* PostView.swift */;
+		};
+		37C3546B53CD326FF258E1E9 /* SummerApp.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "SummerApp.swift";
+			path = "SummerApp.swift";
+			sourceTree = "<group>";
+		};
+		38376ED0D5DF71BC7BD575C6 /* SummerApp.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 37C3546B53CD326FF258E1E9 /* SummerApp.swift */;
+		};
+		38C072E2D16DBA04FC65461C /* LocalRepository.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "LocalRepository.swift";
+			path = "LocalRepository.swift";
+			sourceTree = "<group>";
+		};
+		38FD7EB2FC23A4D1D607417E /* AppState.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "AppState.swift";
+			path = "AppState.swift";
+			sourceTree = "<group>";
+		};
+		401E5B985621ECD6CC67DF6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			79BE80AB0E241E64C87CE802 /* Assets.xcassets */,
+		);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		40AF32D9B5B19B83EF19E09C /* SeedData.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "SeedData.swift";
+			path = "SeedData.swift";
+			sourceTree = "<group>";
+		};
+		41CEDECD48F374FE8A123E79 /* MessagesView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 6E1DF729C30F730F51449924 /* MessagesView.swift */;
+		};
+		424153ED3CD079DB4DB459AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+		);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			BuildIndependentTargetsInParallel = 1;
+			LastUpgradeCheck = 2700;
+			TargetAttributes = {
+				EA764276CAB4A160FA954217 = {
+					CreatedOnToolsVersion = 27.0;
+				};
+			};
+		};
+			buildConfigurationList = 02C01288400459A9BB1A3DB1 /* Build configuration list for PBXProject "Summer" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = "en";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+			en,
+			Base,
+			"zh-Hans",
+		);
+			mainGroup = 518DA81DB9B99529C0C0AEBE /* Main Group */;
+			productRefGroup = 547D009064F7C3F13BEF3460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			EA764276CAB4A160FA954217 /* Summer */,
+		);
+		};
+		499B8DC9A0C9A9B83B5B9F49 /* QuestEngine.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 76447CCF7AB6F15C114BE564 /* QuestEngine.swift */;
+		};
+		518DA81DB9B99529C0C0AEBE /* Main Group */ = {
+			isa = PBXGroup;
+			children = (
+			1129B6A53940C88B539F2B2B /* Summer */,
+			547D009064F7C3F13BEF3460 /* Products */,
+		);
+			sourceTree = "<group>";
+		};
+		547D009064F7C3F13BEF3460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			6EAE056A08BF395F7E4982C0 /* Summer.app */,
+		);
+			sourceTree = "<group>";
+		};
+		549D55CDDCC54CF8B81B31ED /* ProfileView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 854BA7B5BF3DE6BC71505372 /* ProfileView.swift */;
+		};
+		602F91D17D5BCA768EC4C990 /* QuestCenterView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "QuestCenterView.swift";
+			path = "QuestCenterView.swift";
+			sourceTree = "<group>";
+		};
+		607BBD90A24BDB15CF1A7B5A /* DiscoverView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "DiscoverView.swift";
+			path = "DiscoverView.swift";
+			sourceTree = "<group>";
+		};
+		61CDB23D2931E17E8D3CAB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_Localization = "en";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.summer.walkdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+		};
+		64198C09F9F5FAE249765B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_Localization = "en";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.summer.walkdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+		};
+		6E1DF729C30F730F51449924 /* MessagesView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "MessagesView.swift";
+			path = "MessagesView.swift";
+			sourceTree = "<group>";
+		};
+		6EAE056A08BF395F7E4982C0 /* Summer.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			includeInIndex = 0;
+			path = "Summer.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		71FDD9F97525F1DEAFBA7B40 /* QuestModels.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "QuestModels.swift";
+			path = "QuestModels.swift";
+			sourceTree = "<group>";
+		};
+		723121B3648FEEB6882FEFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = "Automatic";
+				CURRENT_PROJECT_VERSION = "1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_Localization = "en";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.summer.walkdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				SDKROOT = "iphoneos";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Summer";
+			};
+		};
+		76447CCF7AB6F15C114BE564 /* QuestEngine.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "QuestEngine.swift";
+			path = "QuestEngine.swift";
+			sourceTree = "<group>";
+		};
+		7865340A203755FC7809C0B0 /* PostView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "PostView.swift";
+			path = "PostView.swift";
+			sourceTree = "<group>";
+		};
+		79BE80AB0E241E64C87CE802 /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			name = "Assets.xcassets";
+			path = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		7A70D71C385290AF96BF1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			D887618205E56850487E4DBA /* Models.swift in Sources */, 8ACDC67C2B93F338D60165DD /* QuestModels.swift in Sources */, 1B9C25F61C7C929FCC239967 /* SeedData.swift in Sources */, E346EBAAE8024486A8795604 /* LocalRepository.swift in Sources */, BEA6612143A551437E39DB9A /* Repository.swift in Sources */, 38376ED0D5DF71BC7BD575C6 /* SummerApp.swift in Sources */, 277E80F062FCB138CB4429DC /* AppState.swift in Sources */, 499B8DC9A0C9A9B83B5B9F49 /* QuestEngine.swift in Sources */, 0F372F5B840ED2C929F1C750 /* Components.swift in Sources */, E73B96205D55E42103B8AE66 /* ContentView.swift in Sources */, 8ECEFDCD82AD0E573DB7F161 /* DiscoverView.swift in Sources */, A3F653300CECC4FEEE97174E /* MapView.swift in Sources */, 41CEDECD48F374FE8A123E79 /* MessagesView.swift in Sources */, 320C0F2FC8BCE35B484D8934 /* PostView.swift in Sources */, 549D55CDDCC54CF8B81B31ED /* ProfileView.swift in Sources */, 936A368C8296D785C96BF783 /* QuestCenterView.swift in Sources */, 7D6CCE395C32E28D31E00585 /* WalkDetailSheet.swift in Sources */,
+		);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CCE395C32E28D31E00585 /* WalkDetailSheet.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 021FAF32D04D72B75184ACEF /* WalkDetailSheet.swift */;
+		};
+		854BA7B5BF3DE6BC71505372 /* ProfileView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "ProfileView.swift";
+			path = "ProfileView.swift";
+			sourceTree = "<group>";
+		};
+		8ACDC67C2B93F338D60165DD /* QuestModels.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 71FDD9F97525F1DEAFBA7B40 /* QuestModels.swift */;
+		};
+		8ECEFDCD82AD0E573DB7F161 /* DiscoverView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 607BBD90A24BDB15CF1A7B5A /* DiscoverView.swift */;
+		};
+		936A368C8296D785C96BF783 /* QuestCenterView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 602F91D17D5BCA768EC4C990 /* QuestCenterView.swift */;
+		};
+		9F52E05DE9B14FA8D5CB7CFA /* Assets.xcassets */ = {
+			isa = PBXBuildFile;
+			fileRef = 79BE80AB0E241E64C87CE802 /* Assets.xcassets */;
+		};
+		A3F653300CECC4FEEE97174E /* MapView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 28407217406C1C2228B09BD0 /* MapView.swift */;
+		};
+		B3C1DFCE8A09E70E783BF768 /* Repository.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "Repository.swift";
+			path = "Repository.swift";
+			sourceTree = "<group>";
+		};
+		BEA6612143A551437E39DB9A /* Repository.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = B3C1DFCE8A09E70E783BF768 /* Repository.swift */;
+		};
+		CDC0E6A4C93872052D91D809 /* Components.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "Components.swift";
+			path = "Components.swift";
+			sourceTree = "<group>";
+		};
+		D5C32F990842EC34F115F995 /* ContentView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = "ContentView.swift";
+			path = "ContentView.swift";
+			sourceTree = "<group>";
+		};
+		D887618205E56850487E4DBA /* Models.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 2E1AB9F83F5703B70F59D3E0 /* Models.swift */;
+		};
+		DBA915C7E8251A8AB92F594A /* Build configuration list for PBXNativeTarget "Summer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			2EF651918AC507BF59F2C151 /* Debug */,
+			723121B3648FEEB6882FEFCE /* Release */,
+		);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		E346EBAAE8024486A8795604 /* LocalRepository.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 38C072E2D16DBA04FC65461C /* LocalRepository.swift */;
+		};
+		E73B96205D55E42103B8AE66 /* ContentView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = D5C32F990842EC34F115F995 /* ContentView.swift */;
+		};
+		EA764276CAB4A160FA954217 /* Summer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA915C7E8251A8AB92F594A /* Build configuration list for PBXNativeTarget "Summer" */;
+			buildPhases = (
+			7A70D71C385290AF96BF1031 /* Sources */,
+			424153ED3CD079DB4DB459AF /* Frameworks */,
+			285BB1C1430063331E9F5DD0 /* Resources */,
+		);
+			buildRules = (
+		);
+			dependencies = (
+		);
+			name = "Summer";
+			productName = "Summer";
+			productReference = 6EAE056A08BF395F7E4982C0 /* Summer.app */;
+			productType = "com.apple.product-type.application";
+		};
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

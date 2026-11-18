@@ -1,0 +1,20 @@
+{
+  "name": "Summer",
+  "short_name": "Summer",
+  "description": "找个狗友，一起遛狗。发现附近的遛狗局、宠物友好场所与狗友。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F4EF",
+  "theme_color": "#FF7A45",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/dog-golden.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

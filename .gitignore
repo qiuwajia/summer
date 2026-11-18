@@ -1,0 +1,27 @@
+# 忽略 WorkBuddy 内部数据（含记忆与会话缓存）
+.workbuddy/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode / Swift
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.swiftpm/
+.swiftpm/
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时文件
+*.log
+*.tmp
+*~
