@@ -41,11 +41,13 @@ for path in all_files:
     oid = uid("file:" + path)
     name = os.path.basename(path)
     ftype = "sourcecode.swift" if path.endswith(".swift") else "folder.assetcatalog"
+    # Swift 文件相对 Summer/ 分组保留子目录；资源相对 Resources/ 分组
+    ref_path = os.path.relpath(path, SRC) if path.endswith(".swift") else name
     add(oid, "PBXFileReference", {
         "_name": name,
         "lastKnownFileType": ftype,
         "name": f'"{name}"',
-        "path": f'"{name}"',
+        "path": f'"{ref_path}"',
         "sourceTree": '"<group>"',
     })
     file_refs[path] = oid
@@ -161,6 +163,7 @@ def add_config(oid, name, is_target, is_debug):
     common = {
         "_name": name,
         "buildSettings": "{\n" + build_settings(is_target, is_debug) + "\n\t\t\t}",
+        "name": f'"{name}"',
     }
     add(oid, "XCBuildConfiguration", common)
 

@@ -4,28 +4,26 @@
 
 ## 当前状态（务必先读）
 
-**所有 17 个 Swift 源文件已通过编译期类型检查，零错误零警告；Xcode 项目文件已通过格式校验。**
+**已完成完整构建与运行时验证：**
 
-但本机 Xcode 的完整许可协议尚未同意，`xcodebuild` 与模拟器工具（simctl）被系统锁定，因此**尚未做真机/模拟器的运行时验证，也未签名打包**。这意味着：
+- `xcodebuild` 模拟器构建：**BUILD SUCCEEDED**，零错误
+- `xcodebuild` 真机构建（不签名）：**BUILD SUCCEEDED**，零错误
+- iPhone 16 Pro 模拟器：安装 → 启动 → 首页正常渲染，无 crash log
 
-- 代码语法、类型、API 调用：已验证通过
-- 实际运行效果、交互、布局：需在同意许可后由 Xcode 验证
+Xcode 许可已同意，项目可直接在 Xcode 中打开运行。
 
-同意义务是法律行为，需你本人完成。步骤见下。
+### 曾经的"一打开就闪退"问题及修复
+
+原因是脚本生成的 `project.pbxproj` 缺少两类关键信息，Xcode 加载工程时就内部断言崩溃（并非 App 本身崩溃）：
+
+1. 每个 `XCBuildConfiguration` 缺少 `name` 字段 → `XCConfigurationList buildConfigurationNames` 拿到 nil 后断言
+2. Swift 文件的 `path` 被扁平化到 `Summer/` 根目录，实际源文件在 `Models/`、`Views/` 等子目录 → 构建期找不到输入文件
+
+`generate_project.py` 已修正这两处，并用真实 `xcodebuild` 验证通过。若日后新增/删除 `.swift` 文件，重新运行 `python3 generate_project.py` 即可同步工程文件。
 
 ## 如何运行
 
-### 第一步：同意 Xcode 许可（仅需一次）
-
-打开「终端」，执行：
-
-```
-sudo xcodebuild -license accept
-```
-
-会要求输入 Mac 开机密码。或者执行 `sudo xcodebuild -license` 手动阅读后同意。
-
-### 第二步：打开项目
+### 第一步：打开项目
 
 ```
 open /Users/qiuwajia/WorkBuddy/2026-11-17-16-48-20/pawpal-ios/Summer.xcodeproj
@@ -33,7 +31,7 @@ open /Users/qiuwajia/WorkBuddy/2026-11-17-16-48-20/pawpal-ios/Summer.xcodeproj
 
 或在 Finder 中双击 `Summer.xcodeproj`。
 
-### 第三步：选设备并运行
+### 第二步：选设备并运行
 
 在 Xcode 顶部设备选择器中选一个 iPhone 模拟器（或连接你的 iPhone），按 `⌘ + R` 运行。
 

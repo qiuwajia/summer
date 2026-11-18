@@ -10,7 +10,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "WalkDetailSheet.swift";
-			path = "WalkDetailSheet.swift";
+			path = "Views/WalkDetailSheet.swift";
 			sourceTree = "<group>";
 		};
 		02C01288400459A9BB1A3DB1 /* Build configuration list for PBXProject "Summer" */ = {
@@ -63,7 +63,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "MapView.swift";
-			path = "MapView.swift";
+			path = "Views/MapView.swift";
 			sourceTree = "<group>";
 		};
 		285BB1C1430063331E9F5DD0 /* Resources */ = {
@@ -78,7 +78,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "Models.swift";
-			path = "Models.swift";
+			path = "Models/Models.swift";
 			sourceTree = "<group>";
 		};
 		2EF651918AC507BF59F2C151 /* Debug */ = {
@@ -108,6 +108,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				INFOPLIST_KEY_CFBundleDisplayName = "Summer";
 			};
+			name = "Debug";
 		};
 		320C0F2FC8BCE35B484D8934 /* PostView.swift */ = {
 			isa = PBXBuildFile;
@@ -128,14 +129,14 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "LocalRepository.swift";
-			path = "LocalRepository.swift";
+			path = "Repositories/LocalRepository.swift";
 			sourceTree = "<group>";
 		};
 		38FD7EB2FC23A4D1D607417E /* AppState.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "AppState.swift";
-			path = "AppState.swift";
+			path = "ViewModels/AppState.swift";
 			sourceTree = "<group>";
 		};
 		401E5B985621ECD6CC67DF6E /* Resources */ = {
@@ -150,7 +151,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "SeedData.swift";
-			path = "SeedData.swift";
+			path = "Models/SeedData.swift";
 			sourceTree = "<group>";
 		};
 		41CEDECD48F374FE8A123E79 /* MessagesView.swift */ = {
@@ -219,14 +220,14 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "QuestCenterView.swift";
-			path = "QuestCenterView.swift";
+			path = "Views/QuestCenterView.swift";
 			sourceTree = "<group>";
 		};
 		607BBD90A24BDB15CF1A7B5A /* DiscoverView.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "DiscoverView.swift";
-			path = "DiscoverView.swift";
+			path = "Views/DiscoverView.swift";
 			sourceTree = "<group>";
 		};
 		61CDB23D2931E17E8D3CAB71 /* Release */ = {
@@ -254,6 +255,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
+			name = "Release";
 		};
 		64198C09F9F5FAE249765B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -281,12 +283,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
+			name = "Debug";
 		};
 		6E1DF729C30F730F51449924 /* MessagesView.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "MessagesView.swift";
-			path = "MessagesView.swift";
+			path = "Views/MessagesView.swift";
 			sourceTree = "<group>";
 		};
 		6EAE056A08BF395F7E4982C0 /* Summer.app */ = {
@@ -300,7 +303,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "QuestModels.swift";
-			path = "QuestModels.swift";
+			path = "Models/QuestModels.swift";
 			sourceTree = "<group>";
 		};
 		723121B3648FEEB6882FEFCE /* Release */ = {
@@ -329,19 +332,20 @@
 				VALIDATE_PRODUCT = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Summer";
 			};
+			name = "Release";
 		};
 		76447CCF7AB6F15C114BE564 /* QuestEngine.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "QuestEngine.swift";
-			path = "QuestEngine.swift";
+			path = "ViewModels/QuestEngine.swift";
 			sourceTree = "<group>";
 		};
 		7865340A203755FC7809C0B0 /* PostView.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "PostView.swift";
-			path = "PostView.swift";
+			path = "Views/PostView.swift";
 			sourceTree = "<group>";
 		};
 		79BE80AB0E241E64C87CE802 /* Assets.xcassets */ = {
@@ -367,7 +371,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "ProfileView.swift";
-			path = "ProfileView.swift";
+			path = "Views/ProfileView.swift";
 			sourceTree = "<group>";
 		};
 		8ACDC67C2B93F338D60165DD /* QuestModels.swift */ = {
@@ -394,7 +398,7 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "Repository.swift";
-			path = "Repository.swift";
+			path = "Repositories/Repository.swift";
 			sourceTree = "<group>";
 		};
 		BEA6612143A551437E39DB9A /* Repository.swift */ = {
@@ -405,14 +409,14 @@
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "Components.swift";
-			path = "Components.swift";
+			path = "Views/Components.swift";
 			sourceTree = "<group>";
 		};
 		D5C32F990842EC34F115F995 /* ContentView.swift */ = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.swift;
 			name = "ContentView.swift";
-			path = "ContentView.swift";
+			path = "Views/ContentView.swift";
 			sourceTree = "<group>";
 		};
 		D887618205E56850487E4DBA /* Models.swift */ = {

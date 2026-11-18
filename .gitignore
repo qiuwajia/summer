@@ -25,3 +25,6 @@ __pycache__/
 *.log
 *.tmp
 *~
+
+# 本地工具（下载的 CLI 等，不入库）
+.tools/
